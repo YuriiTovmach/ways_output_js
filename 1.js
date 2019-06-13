@@ -12,5 +12,7 @@ function f8(){p.insertAdjacentHTML('beforeEnd','eight');}
 function f9(){p.insertAdjacentHTML('afterEnd','nine');}
 function f10(){p.outerHTML = '<div class="one">ten</div>';}
 function f11(){document.write("eleven");}
+function f12(){console.log("twelve");}
+function f13(){alert("thirteen");}
 
 
