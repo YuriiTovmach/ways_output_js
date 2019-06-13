@@ -2,7 +2,7 @@ var p;
 p = document.getElementById('out');
 
 function f1(){p.innerHTML = 'one';}
-function f2(){d && p.innerHTML += ' <b>two</b>';}
+function f2(){p.innerHTML += ' <b>two</b>';}
 function f3(){p.innerHTML = p.innerHTML + 'three';}
 function f4(){p.innerText += ' <b>four</b>';}
 function f5(){p.insertAdjacentHTML('beforeBegin','five');}
